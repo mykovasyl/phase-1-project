@@ -1,5 +1,39 @@
-[
-  {
-    
-  }
-]
+{
+  "fighters": [
+    {
+      "id": 1,
+      "name": "Light Yagami",
+      "image": "https://i.imgur.com/aUVdd0C.png",
+      "power": 20,
+      "description": "His genius intellect and utilization of the lethal Death Note allow him to destroy anyone in any way he desires so long as he knows their full name."
+    },
+    {
+      "id": 2,
+      "name": "Yusuke Urameshi",
+      "image": "https://static.wikia.nocookie.net/yuyuhakusho/images/5/51/YusukeOfficial.png",
+      "power": 35,
+      "description": "Enjoys a good brawl, and seems to prefer fighting with his fists, though he specializes in long range projectile techniques that destroy foes from a distance or many foes at once."
+    },
+    {
+      "id": 3,
+      "name": "Ichigo Kurosaki",
+      "image": "https://wallpaperaccess.com/full/122457.jpg",
+      "power": 50,
+      "description": "A hybrid of Human, Soul Reaper, Quincy, and Hollow, he uses his speed to close the distance and along with several transformations of his Zanpakuto brings even the most experienced fighter to their knees."
+    },
+    {
+      "id": 4,
+      "name": "Meliodas",
+      "image": "https://images.wallpapersden.com/image/download/meliodas-art-the-seven-deadly-sins_bG1qZ2yUmZqaraWkpJRnbmhnrWduaGc.jpg",
+      "power": 65,
+      "description": "Member of the Demon Clan capable of manifesting their mysterious power of darkness, which he can use and morph into various shapes for a variety of purposes, such as forming wings to fly, reattaching limbs, and mostly enhancing both his physical and magical abilities."
+    },
+    {
+      "id": 5,
+      "name": "Saitama",
+      "image": "https://i.pinimg.com/originals/c4/09/fe/c409fe33abea8282ddc53ca7d006ddc7.jpg",
+      "power": 80,
+      "description": "While bringing an end to any fight with one punch he faces a self-imposed existential crisis, as he is now too powerful to gain any thrill from battle."
+    }
+  ]
+}
