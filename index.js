@@ -113,7 +113,26 @@ document.addEventListener('DOMContentLoaded', () => {
     `
   }
 
-  function resetArena() {
+  document.addEventListener('click', (e) => {
+    if(e.target.className === "try-again") {
+      resetArena()
+    }
+  })
 
+  function resetArena() {
+    setUpFighter.removeAttribute('hidden')
+    powerLevelBtn.disabled = false
+    powerLevelBtn.textContent = "Random Power!"
+    classDropdown.selectedIndex = 0
+    nameDescrForm.reset()
+    nameDescrForm.hidden = true
+    fighterPower.hidden = true
+    readyForBattle.hidden = true
+    arena.hidden = true
+    noWins.hidden = true
+    someWins.hidden = true
+    winCounter.textContent = 0
+    winsSpan.textContent = ''
+    wins = 0;
   }
 })//code ends
